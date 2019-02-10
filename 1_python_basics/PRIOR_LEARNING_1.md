@@ -192,4 +192,4 @@ Pythonにはもっとたくさんの関数が用意されています．また�
 ***
 [>> Pythonの基本的な使い方のトップページに戻る](./README.md)
 ***
-&copy; 2019 &nbsp; Jun Ohkubo
+<img src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"> &nbsp; Jun Ohkubo

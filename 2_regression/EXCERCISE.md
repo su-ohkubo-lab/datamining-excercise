@@ -42,4 +42,4 @@ inputs = np.array([[x,x**2,x**3,x**4,x**5,x**6,x**7,x**8] for x in inputs])
 ***
 [>> 線形回帰のトップページに戻る](./README.md)
 ***
-&copy; 2019 &nbsp; Jun Ohkubo
+<img src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"> &nbsp; Jun Ohkubo

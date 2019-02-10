@@ -39,4 +39,8 @@
 [>> データ解析実践の説明へ](./5_excercise/README.md)
 
 ***
-&copy; 2019 &nbsp; Jun Ohkubo
+
+[>> 本教材の著作権や再利用について](./LICENSE.md)
+
+***
+<img src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"> &nbsp; Jun Ohkubo
