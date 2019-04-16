@@ -5,8 +5,8 @@
 ***
 #### 課題 3.1
 1. データ [`iris.csv`](./iris.csv) を確認する．また [データの設置されていたWebサイト（外部リンク）](https://archive.ics.uci.edu/ml/datasets/Iris) の説明を眺める．
-1. コード [`svm_training.py`](./svm_training.py) と訓練データ `iris_training.csv` を同じフォルダに設置する．そのフォルダに `linear_svm.pkl` というファイルが「存在しない」ことを確認しておく．そのあとコード [`svm_training.py`](./svm_training.py) を実行してみる．特に変化がないように見えるが，今度は `linear_svm.pkl` というファイルが作られていることを確認する．
-1. コード [`svm_test.py`](./svm_test.py) ，テストデータ `iris_test.csv`，そして学習したファイル（今回の場合は `linear_svm.pkl`）を同じフォルダに設置して，コード [`svm_test.py`](./svm_test.py) を実行する．結果の意味を考えてみる（どこかがおかしいのでは？）
+1. コード [`svm_training.py`](./svm_training.py) と訓練データ [`iris_training.csv`](./iris_training.csv) を同じフォルダに設置する．そのフォルダに `linear_svm.pkl` というファイルが「存在しない」ことを確認しておく．そのあとコード [`svm_training.py`](./svm_training.py) を実行してみる．特に変化がないように見えるが，今度は `linear_svm.pkl` というファイルが作られていることを確認する．
+1. コード [`svm_test.py`](./svm_test.py) ，テストデータ [`iris_test.csv`](./iris_test.csv)，そして学習したファイル（今回の場合は `linear_svm.pkl`）を同じフォルダに設置して，コード [`svm_test.py`](./svm_test.py) を実行する．結果の意味を考えてみる（どこかがおかしいのでは？）
 
     > 注意：環境によっては結果の出力が
 
@@ -31,7 +31,7 @@
     > ヒント：コード [`svm_training.py`](./svm_training.py) でのデータの準備方法とコード [`svm_test.py`](./svm_test.py) での準備方法に違いはないか？ データの全てを使っている？ それとも一部分だけ？ ここでは「2つの」クラスの識別を考えているので，テストについてもそのように変更したい）
 
 1. コード [`svm_plot.py`](./svm_plot.py) を実行する．またコードの意味を読み取ってみる．
-1. コード [`svm_plot.py`](./svm_plot.py) を改造して（ファイル名を変更しておくなど，各自で工夫する），テストデータ `iris_test.csv` に対するプロットを出力してみる．
+1. コード [`svm_plot.py`](./svm_plot.py) を改造して（ファイル名を変更しておくなど，各自で工夫する），テストデータ [`iris_test.csv`](./iris_test.csv) に対するプロットを出力してみる．
 1. 直線のSVMではなく，通常のSVMを使って学習する．訓練結果の出力の際，ファイル名を `svm.pkl` とする．
 1. 通常のSVMを用いて学習した結果をテストデータに適用する．この際，課題3.1.6の修正も考慮する．
 1. 通常のSVMを用いて訓練データ，テストデータに対するプロットをしてみる．

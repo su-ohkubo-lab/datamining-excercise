@@ -5,7 +5,7 @@
 ***
 #### 課題 2.1
 1. データ [`boston.csv`](./boston.csv) を確認する．また [データの設置されていたWebサイト（外部リンク）](https://www.cs.toronto.edu/~delve/data/boston/bostonDetail.html) の説明を眺める．
-1. コード [`regression.py`](./regression.py) を実行して結果を確認する．データ `boston.csv` を同じフォルダに設置しておくこと．
+1. コード [`regression.py`](./regression.py) を実行して結果を確認する．データ [`boston.csv`](./boston.csv) を同じフォルダに設置しておくこと．
 1. コード [`regression.py`](./regression.py) の意味を読み取る．特徴量として1つしか使っていないことに注意．他のいくつかの特徴量を使ってプロットして，特徴量から予想される住宅価格の変化と一致するかどうかを確認する．
 1. コードの中の
 
